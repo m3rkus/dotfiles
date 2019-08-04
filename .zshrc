@@ -96,6 +96,8 @@ alias la="ls -la"
 alias gs="git status"
 alias gbl="git branch -a"
 alias cleardd="rm -rf ~/Library/Developer/Xcode/DerivedData"
+alias search='find / -name $file 2>/dev/null'
+alias deeplink=xcrun simctl openurl booted
 
 # Fuzzy autocomplete
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
